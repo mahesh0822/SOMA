@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="somaApiTesting.GetPatientTotalReadingsCount"/>
+      <class name="somaApiTesting.GetSomaPatientAssociatedDevices"/>
+      <class name="somaApiTesting.GetPatientDjAnswers"/>
+      <class name="somaApiTesting.GetStates"/>
+      <class name="somaApiTesting.PostCheckMemberPhoneNUmberExists"/>
+      <class name="somaApiTesting.GetSomaPatientPrograms"/>
+      <class name="somaApiTesting.GetDjQuestionTypes"/>
+      <class name="somaApiTesting.GetSomaPrograms"/>
+      <class name="somaApiTesting.GetPatientsList"/>
+      <class name="somaApiTesting.GetPatientTeamMembers"/>
+      <class name="somaApiTesting.GetSomaPatientToBillTodayDetails"/>
+      <class name="somaApiTesting.GetExistingPatientPayers"/>
+      <class name="somaApiTesting.GetPatientDevices"/>
+      <class name="somaApiTesting.GetDjNotificationSettings"/>
+      <class name="somaApiTesting.GetPatientCount"/>
+      <class name="somaApiTesting.GetPatientNormalZones"/>
+      <class name="somaApiTesting.GetSomaTeamDjQuestions"/>
+      <class name="somaApiTesting.BaseClass"/>
+      <class name="somaApiTesting.GetPatientTeams"/>
+      <class name="somaApiTesting.GetPatientReadings"/>
+      <class name="somaApiTesting.GetPatientTeamNormalZones"/>
+      <class name="somaApiTesting.GetReadingTypes"/>
+      <class name="somaApiTesting.GetPatientFoodLogDetails"/>
+      <class name="somaApiTesting.GetPatientLatestReadings"/>
+      <class name="somaApiTesting.GetListOfDjQuestions"/>
+      <class name="somaApiTesting.GetSomaDjCategories"/>
+      <class name="somaApiTesting.GetPatientFullName"/>
+      <class name="somaApiTesting.GetpatientFoodLogHistory"/>
+      <class name="somaApiTesting.GetLatestSoftwareVersion"/>
+      <class name="somaApiTesting.GetPatientAlertsConfiguration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

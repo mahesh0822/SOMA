@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="somaApiTesting.GetLatestSoftwareVersion">
+        <methods>
+          <include name="LatestSoftwareVersion"/>
+        </methods>
+      </class> <!-- somaApiTesting.GetLatestSoftwareVersion -->
+      <class name="somaApiTesting.GetReadingTypes">
+        <methods>
+          <include name="GetReadingTypesApi"/>
+        </methods>
+      </class> <!-- somaApiTesting.GetReadingTypes -->
+      <class name="somaApiTesting.GetPatientTotalReadingsCount">
+        <methods>
+          <include name="patientTotalReadingsCount"/>
+        </methods>
+      </class> <!-- somaApiTesting.GetPatientTotalReadingsCount -->
+      <class name="somaApiTesting.PostCheckMemberPhoneNUmberExists">
+        <methods>
+          <include name="checkMemberPhoneNumberExists"/>
+        </methods>
+      </class> <!-- somaApiTesting.PostCheckMemberPhoneNUmberExists -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

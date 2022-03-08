@@ -1,0 +1,20 @@
+package somaApiTesting;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class GetPatientFullName 
+{
+
+	@Test
+	public void patientFullName()
+	{
+		Response response = RestAssured.get("https://qaapi.somahealth.com/api/Device/GetPatientFullName?PatientId=43061");
+		int statuscode = response.getStatusCode();
+		Assert.assertEquals(statuscode,200);
+		response.then().log().all();
+	}
+}

@@ -1,0 +1,410 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>57/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 25 17:43:09 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47071 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='somaApiTesting.PostCheckMemberPhoneNUmberExists.checkMemberPhoneNumberExists()'><b>checkMemberPhoneNumberExists</b><br>Test class: somaApiTesting.PostCheckMemberPhoneNUmberExists</td>
+<td><div><pre>java.lang.AssertionError: expected [405] but found [401]
+	at somaApiTesting.PostCheckMemberPhoneNUmberExists.checkMemberPhoneNumberExists(PostCheckMemberPhoneNUmberExists.java:35)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1818440653", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1818440653'><pre>java.lang.AssertionError: expected [405] but found [401]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at somaApiTesting.PostCheckMemberPhoneNUmberExists.checkMemberPhoneNumberExists(PostCheckMemberPhoneNUmberExists.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>somaApiTesting.PostCheckMemberPhoneNUmberExists@268f106e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientAssociatedDevices.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetSomaPatientAssociatedDevices</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaPatientAssociatedDevices@7ce69770</td></tr>
+<tr>
+<td title='somaApiTesting.GetStates.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetStates</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetStates@5b247367</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientPrograms.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetSomaPatientPrograms</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaPatientPrograms@6e9a5ed8</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPrograms.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetSomaPrograms</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaPrograms@6c284af</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientToBillTodayDetails.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetSomaPatientToBillTodayDetails</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaPatientToBillTodayDetails@31ea9581</td></tr>
+<tr>
+<td title='somaApiTesting.GetDjNotificationSettings.DjNotificationSettings()'><b>DjNotificationSettings</b><br>Test class: somaApiTesting.GetDjNotificationSettings</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetDjNotificationSettings@183ec003</td></tr>
+<tr>
+<td title='somaApiTesting.GetDjQuestionTypes.DjQuestionTypes()'><b>DjQuestionTypes</b><br>Test class: somaApiTesting.GetDjQuestionTypes</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetDjQuestionTypes@7e057f43</td></tr>
+<tr>
+<td title='somaApiTesting.GetReadingTypes.GetReadingTypesApi()'><b>GetReadingTypesApi</b><br>Test class: somaApiTesting.GetReadingTypes</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetReadingTypes@24569dba</td></tr>
+<tr>
+<td title='somaApiTesting.GetLatestSoftwareVersion.LatestSoftwareVersion()'><b>LatestSoftwareVersion</b><br>Test class: somaApiTesting.GetLatestSoftwareVersion</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetLatestSoftwareVersion@7c37508a</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTotalReadingsCount.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientTotalReadingsCount</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientTotalReadingsCount@14028087</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientAssociatedDevices.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaPatientAssociatedDevices</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaPatientAssociatedDevices@7ce69770</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientDjAnswers.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientDjAnswers</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientDjAnswers@1750fbeb</td></tr>
+<tr>
+<td title='somaApiTesting.GetStates.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetStates</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetStates@5b247367</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientPrograms.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaPatientPrograms</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaPatientPrograms@6e9a5ed8</td></tr>
+<tr>
+<td title='somaApiTesting.GetDjQuestionTypes.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetDjQuestionTypes</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetDjQuestionTypes@7e057f43</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPrograms.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaPrograms</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaPrograms@6c284af</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientsList.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientsList</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientsList@5890e879</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeamMembers.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientTeamMembers</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientTeamMembers@6440112d</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaPatientToBillTodayDetails.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaPatientToBillTodayDetails</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaPatientToBillTodayDetails@31ea9581</td></tr>
+<tr>
+<td title='somaApiTesting.GetExistingPatientPayers.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetExistingPatientPayers</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetExistingPatientPayers@231f98ef</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientDevices.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientDevices</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientDevices@7c137fd5</td></tr>
+<tr>
+<td title='somaApiTesting.GetDjNotificationSettings.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetDjNotificationSettings</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetDjNotificationSettings@183ec003</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientCount.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientCount</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientCount@7d9d0818</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientNormalZones.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientNormalZones</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientNormalZones@221a3fa4</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaTeamDjQuestions.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaTeamDjQuestions</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaTeamDjQuestions@451001e5</td></tr>
+<tr>
+<td title='somaApiTesting.BaseClass.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.BaseClass</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.BaseClass@2b40ff9c</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeams.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientTeams</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientTeams@3e08ff24</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientReadings.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientReadings</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientReadings@4d1c005e</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeamNormalZones.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientTeamNormalZones</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientTeamNormalZones@8462f31</td></tr>
+<tr>
+<td title='somaApiTesting.GetReadingTypes.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetReadingTypes</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetReadingTypes@24569dba</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientFoodLogDetails.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientFoodLogDetails</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientFoodLogDetails@5ddeb7cb</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientLatestReadings.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientLatestReadings</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientLatestReadings@70ed52de</td></tr>
+<tr>
+<td title='somaApiTesting.GetListOfDjQuestions.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetListOfDjQuestions</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetListOfDjQuestions@496bc455</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaDjCategories.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetSomaDjCategories</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetSomaDjCategories@59402b8f</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientFullName.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientFullName</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientFullName@7188af83</td></tr>
+<tr>
+<td title='somaApiTesting.GetpatientFoodLogHistory.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetpatientFoodLogHistory</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetpatientFoodLogHistory@6be968ce</td></tr>
+<tr>
+<td title='somaApiTesting.GetLatestSoftwareVersion.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetLatestSoftwareVersion</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetLatestSoftwareVersion@7c37508a</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientAlertsConfiguration.accessToken()'><b>accessToken</b><br>Test class: somaApiTesting.GetPatientAlertsConfiguration</td>
+<td></td>
+<td>0</td>
+<td>somaApiTesting.GetPatientAlertsConfiguration@247310d0</td></tr>
+<tr>
+<td title='somaApiTesting.GetExistingPatientPayers.existingPatientPayers()'><b>existingPatientPayers</b><br>Test class: somaApiTesting.GetExistingPatientPayers</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetExistingPatientPayers@231f98ef</td></tr>
+<tr>
+<td title='somaApiTesting.GetListOfDjQuestions.listOfDjQuestions()'><b>listOfDjQuestions</b><br>Test class: somaApiTesting.GetListOfDjQuestions</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetListOfDjQuestions@496bc455</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientAlertsConfiguration.patientAlertsConfiguration()'><b>patientAlertsConfiguration</b><br>Test class: somaApiTesting.GetPatientAlertsConfiguration</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientAlertsConfiguration@247310d0</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientCount.patientCount()'><b>patientCount</b><br>Test class: somaApiTesting.GetPatientCount</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientCount@7d9d0818</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientDevices.patientDevices()'><b>patientDevices</b><br>Test class: somaApiTesting.GetPatientDevices</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientDevices@7c137fd5</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientDjAnswers.patientDjAnswers()'><b>patientDjAnswers</b><br>Test class: somaApiTesting.GetPatientDjAnswers</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientDjAnswers@1750fbeb</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientFoodLogDetails.patientFoodLogDetails()'><b>patientFoodLogDetails</b><br>Test class: somaApiTesting.GetPatientFoodLogDetails</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientFoodLogDetails@5ddeb7cb</td></tr>
+<tr>
+<td title='somaApiTesting.GetpatientFoodLogHistory.patientFoodLogHistory()'><b>patientFoodLogHistory</b><br>Test class: somaApiTesting.GetpatientFoodLogHistory</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetpatientFoodLogHistory@6be968ce</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientFullName.patientFullName()'><b>patientFullName</b><br>Test class: somaApiTesting.GetPatientFullName</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientFullName@7188af83</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientLatestReadings.patientLatestReadings()'><b>patientLatestReadings</b><br>Test class: somaApiTesting.GetPatientLatestReadings</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientLatestReadings@70ed52de</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientsList.patientList()'><b>patientList</b><br>Test class: somaApiTesting.GetPatientsList</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientsList@5890e879</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientNormalZones.patientNormalZones()'><b>patientNormalZones</b><br>Test class: somaApiTesting.GetPatientNormalZones</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientNormalZones@221a3fa4</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientReadings.patientReadings()'><b>patientReadings</b><br>Test class: somaApiTesting.GetPatientReadings</td>
+<td></td>
+<td>2</td>
+<td>somaApiTesting.GetPatientReadings@4d1c005e</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeamMembers.patientTeamMembers()'><b>patientTeamMembers</b><br>Test class: somaApiTesting.GetPatientTeamMembers</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientTeamMembers@6440112d</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeamNormalZones.patientTeamNormalZones()'><b>patientTeamNormalZones</b><br>Test class: somaApiTesting.GetPatientTeamNormalZones</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetPatientTeamNormalZones@8462f31</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTeams.patientTeams()'><b>patientTeams</b><br>Test class: somaApiTesting.GetPatientTeams</td>
+<td></td>
+<td>2</td>
+<td>somaApiTesting.GetPatientTeams@3e08ff24</td></tr>
+<tr>
+<td title='somaApiTesting.GetPatientTotalReadingsCount.patientTotalReadingsCount()'><b>patientTotalReadingsCount</b><br>Test class: somaApiTesting.GetPatientTotalReadingsCount</td>
+<td></td>
+<td>3</td>
+<td>somaApiTesting.GetPatientTotalReadingsCount@14028087</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaDjCategories.somaDjCategories()'><b>somaDjCategories</b><br>Test class: somaApiTesting.GetSomaDjCategories</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaDjCategories@59402b8f</td></tr>
+<tr>
+<td title='somaApiTesting.GetSomaTeamDjQuestions.teamDjQuestions()'><b>teamDjQuestions</b><br>Test class: somaApiTesting.GetSomaTeamDjQuestions</td>
+<td></td>
+<td>1</td>
+<td>somaApiTesting.GetSomaTeamDjQuestions@451001e5</td></tr>
+</table><p>
+</body>
+</html>

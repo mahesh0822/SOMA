@@ -1,0 +1,52 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="a58f64">  <td>21/08/24 13:11:37</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientCount.patientCount()[pri:0, instance:somaApiTesting.GetPatientCount@5276d6ee]">patientCount</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="c9739c">  <td>21/08/24 13:11:40</td>   <td>2834</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientNormalZones.patientNormalZones()[pri:0, instance:somaApiTesting.GetPatientNormalZones@7fb4f2a9]">patientNormalZones</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="95b0f5">  <td>21/08/24 13:11:41</td>   <td>4290</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetSomaTeamDjQuestions.teamDjQuestions()[pri:0, instance:somaApiTesting.GetSomaTeamDjQuestions@4dc27487]">teamDjQuestions</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="8c9d78">  <td>21/08/24 13:11:43</td>   <td>5841</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientReadings.patientReadings()[pri:0, instance:somaApiTesting.GetPatientReadings@6a4f1a55]">patientReadings</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="b4899b">  <td>21/08/24 13:11:44</td>   <td>7275</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientTeams.patientTeams()[pri:0, instance:somaApiTesting.GetPatientTeams@7dfd3c81]">patientTeams</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="c49f62">  <td>21/08/24 13:11:46</td>   <td>8859</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientTeamNormalZones.patientTeamNormalZones()[pri:0, instance:somaApiTesting.GetPatientTeamNormalZones@2584b82d]">patientTeamNormalZones</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="818477">  <td>21/08/24 13:11:47</td>   <td>10286</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientTotalReadingsCount.patientTotalReadingsCount()[pri:0, instance:somaApiTesting.GetPatientTotalReadingsCount@7bbc8656]">patientTotalReadingsCount</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="baa696">  <td>21/08/24 13:11:49</td>   <td>11569</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientDjAnswers.patientDjAnswers()[pri:0, instance:somaApiTesting.GetPatientDjAnswers@6933b6c6]">patientDjAnswers</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="af6677">  <td>21/08/24 13:11:50</td>   <td>12899</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PostCheckMemberPhoneNUmberExists.checkMemberPhoneNumberExists()[pri:0, instance:somaApiTesting.PostCheckMemberPhoneNUmberExists@7d3e8655]">checkMemberPhoneNumberExists</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="9d7baf">  <td>21/08/24 13:11:51</td>   <td>14305</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetReadingTypes.GetReadingTypesApi()[pri:0, instance:somaApiTesting.GetReadingTypes@7dfb0c0f]">GetReadingTypesApi</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="eb9ea3">  <td>21/08/24 13:11:53</td>   <td>15625</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientFoodLogDetails.patientFoodLogDetails()[pri:0, instance:somaApiTesting.GetPatientFoodLogDetails@626abbd0]">patientFoodLogDetails</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="94a4fe">  <td>21/08/24 13:11:54</td>   <td>17080</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetDjQuestionTypes.DjQuestionTypes()[pri:0, instance:somaApiTesting.GetDjQuestionTypes@169bb4dd]">DjQuestionTypes</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="bc72d1">  <td>21/08/24 13:11:55</td>   <td>18405</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientLatestReadings.patientLatestReadings()[pri:0, instance:somaApiTesting.GetPatientLatestReadings@1f9e9475]">patientLatestReadings</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="75e76a">  <td>21/08/24 13:11:57</td>   <td>19756</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientsList.patientList()[pri:0, instance:somaApiTesting.GetPatientsList@3aa078fd]">patientList</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="84cca1">  <td>21/08/24 13:11:58</td>   <td>21223</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientTeamMembers.patientTeamMembers()[pri:0, instance:somaApiTesting.GetPatientTeamMembers@d23e042]">patientTeamMembers</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="9271af">  <td>21/08/24 13:12:00</td>   <td>22592</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetSomaDjCategories.somaDjCategories()[pri:0, instance:somaApiTesting.GetSomaDjCategories@46d59067]">somaDjCategories</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="a8bb62">  <td>21/08/24 13:12:01</td>   <td>24267</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientFullName.patientFullName()[pri:0, instance:somaApiTesting.GetPatientFullName@2d0399f4]">patientFullName</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="93b2b6">  <td>21/08/24 13:12:03</td>   <td>25711</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetListOfDjQuestions.listOfDjQuestions()[pri:0, instance:somaApiTesting.GetListOfDjQuestions@14dd7b39]">listOfDjQuestions</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="81c175">  <td>21/08/24 13:12:04</td>   <td>27318</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetpatientFoodLogHistory.patientFoodLogHistory()[pri:0, instance:somaApiTesting.GetpatientFoodLogHistory@66ea810]">patientFoodLogHistory</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="7a78e3">  <td>21/08/24 13:12:06</td>   <td>28739</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetExistingPatientPayers.existingPatientPayers()[pri:0, instance:somaApiTesting.GetExistingPatientPayers@6cd24612]">existingPatientPayers</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="8ca085">  <td>21/08/24 13:12:07</td>   <td>30185</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientAlertsConfiguration.patientAlertsConfiguration()[pri:0, instance:somaApiTesting.GetPatientAlertsConfiguration@5dafbe45]">patientAlertsConfiguration</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="a57cd4">  <td>21/08/24 13:12:09</td>   <td>31544</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetLatestSoftwareVersion.LatestSoftwareVersion()[pri:0, instance:somaApiTesting.GetLatestSoftwareVersion@2254127a]">LatestSoftwareVersion</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="67e29c">  <td>21/08/24 13:12:10</td>   <td>33310</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetPatientDevices.patientDevices()[pri:0, instance:somaApiTesting.GetPatientDevices@51891008]">patientDevices</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+<tr bgcolor="6c8bb3">  <td>21/08/24 13:12:12</td>   <td>34728</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="GetDjNotificationSettings.DjNotificationSettings()[pri:0, instance:somaApiTesting.GetDjNotificationSettings@2f953efd]">DjNotificationSettings</td> 
+  <td>main@400103862</td>   <td></td> </tr>
+</table>

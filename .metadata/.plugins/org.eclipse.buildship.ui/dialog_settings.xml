@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="D:\WorkspaceSVN\com.soma.flutter.android.patient"/>
+		<item key="use_default_location" value="true"/>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\Users\mahesh.SKYCLIFFIT\Downloads\SOMA_Android_Flutter-Login_Page-2021_10_18_10_34"/>
+		<item key="apply_working_sets" value="false"/>
+		<list key="working_sets">
+		</list>
+	</section>
+</section>

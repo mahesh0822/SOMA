@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="58" passed="57" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-25T12:13:09Z" name="Suite" finished-at="2021-11-25T12:13:56Z" duration-ms="47071">
+    <groups>
+    </groups>
+    <test started-at="2021-11-25T12:13:09Z" name="Test" finished-at="2021-11-25T12:13:56Z" duration-ms="47071">
+      <class name="somaApiTesting.GetPatientDevices">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientDevices@7c137fd5]" started-at="2021-11-25T17:43:28Z" name="accessToken" finished-at="2021-11-25T17:43:28Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientDevices()[pri:0, instance:somaApiTesting.GetPatientDevices@7c137fd5]" started-at="2021-11-25T17:43:28Z" name="patientDevices" finished-at="2021-11-25T17:43:30Z" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientDevices -->
+      </class> <!-- somaApiTesting.GetPatientDevices -->
+      <class name="somaApiTesting.GetPatientTeamMembers">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientTeamMembers@6440112d]" started-at="2021-11-25T17:43:24Z" name="accessToken" finished-at="2021-11-25T17:43:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientTeamMembers()[pri:0, instance:somaApiTesting.GetPatientTeamMembers@6440112d]" started-at="2021-11-25T17:43:24Z" name="patientTeamMembers" finished-at="2021-11-25T17:43:25Z" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientTeamMembers -->
+      </class> <!-- somaApiTesting.GetPatientTeamMembers -->
+      <class name="somaApiTesting.GetExistingPatientPayers">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetExistingPatientPayers@231f98ef]" started-at="2021-11-25T17:43:27Z" name="accessToken" finished-at="2021-11-25T17:43:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="existingPatientPayers()[pri:0, instance:somaApiTesting.GetExistingPatientPayers@231f98ef]" started-at="2021-11-25T17:43:27Z" name="existingPatientPayers" finished-at="2021-11-25T17:43:28Z" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingPatientPayers -->
+      </class> <!-- somaApiTesting.GetExistingPatientPayers -->
+      <class name="somaApiTesting.GetSomaPatientToBillTodayDetails">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaPatientToBillTodayDetails@31ea9581]" started-at="2021-11-25T17:43:25Z" name="accessToken" finished-at="2021-11-25T17:43:25Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetSomaPatientToBillTodayDetails@31ea9581]" started-at="2021-11-25T17:43:25Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:27Z" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetSomaPatientToBillTodayDetails -->
+      <class name="somaApiTesting.GetPatientFullName">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientFullName@7188af83]" started-at="2021-11-25T17:43:50Z" name="accessToken" finished-at="2021-11-25T17:43:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientFullName()[pri:0, instance:somaApiTesting.GetPatientFullName@7188af83]" started-at="2021-11-25T17:43:50Z" name="patientFullName" finished-at="2021-11-25T17:43:51Z" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientFullName -->
+      </class> <!-- somaApiTesting.GetPatientFullName -->
+      <class name="somaApiTesting.GetLatestSoftwareVersion">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetLatestSoftwareVersion@7c37508a]" started-at="2021-11-25T17:43:53Z" name="accessToken" finished-at="2021-11-25T17:43:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="LatestSoftwareVersion()[pri:0, instance:somaApiTesting.GetLatestSoftwareVersion@7c37508a]" started-at="2021-11-25T17:43:53Z" name="LatestSoftwareVersion" finished-at="2021-11-25T17:43:54Z" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LatestSoftwareVersion -->
+      </class> <!-- somaApiTesting.GetLatestSoftwareVersion -->
+      <class name="somaApiTesting.GetDjNotificationSettings">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetDjNotificationSettings@183ec003]" started-at="2021-11-25T17:43:30Z" name="accessToken" finished-at="2021-11-25T17:43:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetDjNotificationSettings@183ec003]" started-at="2021-11-25T17:43:30Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:31Z" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetDjNotificationSettings -->
+      <class name="somaApiTesting.GetPatientTeamNormalZones">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientTeamNormalZones@8462f31]" started-at="2021-11-25T17:43:40Z" name="accessToken" finished-at="2021-11-25T17:43:40Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientTeamNormalZones()[pri:0, instance:somaApiTesting.GetPatientTeamNormalZones@8462f31]" started-at="2021-11-25T17:43:40Z" name="patientTeamNormalZones" finished-at="2021-11-25T17:43:42Z" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientTeamNormalZones -->
+      </class> <!-- somaApiTesting.GetPatientTeamNormalZones -->
+      <class name="somaApiTesting.GetSomaPatientPrograms">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaPatientPrograms@6e9a5ed8]" started-at="2021-11-25T17:43:18Z" name="accessToken" finished-at="2021-11-25T17:43:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetSomaPatientPrograms@6e9a5ed8]" started-at="2021-11-25T17:43:18Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:19Z" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetSomaPatientPrograms -->
+      <class name="somaApiTesting.GetSomaTeamDjQuestions">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaTeamDjQuestions@451001e5]" started-at="2021-11-25T17:43:34Z" name="accessToken" finished-at="2021-11-25T17:43:34Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="teamDjQuestions()[pri:0, instance:somaApiTesting.GetSomaTeamDjQuestions@451001e5]" started-at="2021-11-25T17:43:34Z" name="teamDjQuestions" finished-at="2021-11-25T17:43:36Z" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamDjQuestions -->
+      </class> <!-- somaApiTesting.GetSomaTeamDjQuestions -->
+      <class name="somaApiTesting.GetPatientNormalZones">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientNormalZones@221a3fa4]" started-at="2021-11-25T17:43:33Z" name="accessToken" finished-at="2021-11-25T17:43:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientNormalZones()[pri:0, instance:somaApiTesting.GetPatientNormalZones@221a3fa4]" started-at="2021-11-25T17:43:33Z" name="patientNormalZones" finished-at="2021-11-25T17:43:34Z" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientNormalZones -->
+      </class> <!-- somaApiTesting.GetPatientNormalZones -->
+      <class name="somaApiTesting.GetPatientTotalReadingsCount">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientTotalReadingsCount@14028087]" started-at="2021-11-25T17:43:09Z" name="accessToken" finished-at="2021-11-25T17:43:09Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientTotalReadingsCount()[pri:0, instance:somaApiTesting.GetPatientTotalReadingsCount@14028087]" started-at="2021-11-25T17:43:09Z" name="patientTotalReadingsCount" finished-at="2021-11-25T17:43:12Z" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientTotalReadingsCount -->
+      </class> <!-- somaApiTesting.GetPatientTotalReadingsCount -->
+      <class name="somaApiTesting.GetPatientDjAnswers">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientDjAnswers@1750fbeb]" started-at="2021-11-25T17:43:13Z" name="accessToken" finished-at="2021-11-25T17:43:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientDjAnswers()[pri:0, instance:somaApiTesting.GetPatientDjAnswers@1750fbeb]" started-at="2021-11-25T17:43:13Z" name="patientDjAnswers" finished-at="2021-11-25T17:43:15Z" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientDjAnswers -->
+      </class> <!-- somaApiTesting.GetPatientDjAnswers -->
+      <class name="somaApiTesting.GetStates">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetStates@5b247367]" started-at="2021-11-25T17:43:15Z" name="accessToken" finished-at="2021-11-25T17:43:15Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetStates@5b247367]" started-at="2021-11-25T17:43:15Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:16Z" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetStates -->
+      <class name="somaApiTesting.GetPatientsList">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientsList@5890e879]" started-at="2021-11-25T17:43:23Z" name="accessToken" finished-at="2021-11-25T17:43:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientList()[pri:0, instance:somaApiTesting.GetPatientsList@5890e879]" started-at="2021-11-25T17:43:23Z" name="patientList" finished-at="2021-11-25T17:43:24Z" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientList -->
+      </class> <!-- somaApiTesting.GetPatientsList -->
+      <class name="somaApiTesting.PostCheckMemberPhoneNUmberExists">
+        <test-method signature="checkMemberPhoneNumberExists()[pri:0, instance:somaApiTesting.PostCheckMemberPhoneNUmberExists@268f106e]" started-at="2021-11-25T17:43:16Z" name="checkMemberPhoneNumberExists" finished-at="2021-11-25T17:43:18Z" duration-ms="1311" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [405] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [405] but found [401]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at somaApiTesting.PostCheckMemberPhoneNUmberExists.checkMemberPhoneNumberExists(PostCheckMemberPhoneNUmberExists.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMemberPhoneNumberExists -->
+      </class> <!-- somaApiTesting.PostCheckMemberPhoneNUmberExists -->
+      <class name="somaApiTesting.GetSomaPatientAssociatedDevices">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaPatientAssociatedDevices@7ce69770]" started-at="2021-11-25T17:43:12Z" name="accessToken" finished-at="2021-11-25T17:43:12Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetSomaPatientAssociatedDevices@7ce69770]" started-at="2021-11-25T17:43:12Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:13Z" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetSomaPatientAssociatedDevices -->
+      <class name="somaApiTesting.GetPatientLatestReadings">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientLatestReadings@70ed52de]" started-at="2021-11-25T17:43:45Z" name="accessToken" finished-at="2021-11-25T17:43:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientLatestReadings()[pri:0, instance:somaApiTesting.GetPatientLatestReadings@70ed52de]" started-at="2021-11-25T17:43:45Z" name="patientLatestReadings" finished-at="2021-11-25T17:43:46Z" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientLatestReadings -->
+      </class> <!-- somaApiTesting.GetPatientLatestReadings -->
+      <class name="somaApiTesting.GetPatientAlertsConfiguration">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientAlertsConfiguration@247310d0]" started-at="2021-11-25T17:43:54Z" name="accessToken" finished-at="2021-11-25T17:43:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientAlertsConfiguration()[pri:0, instance:somaApiTesting.GetPatientAlertsConfiguration@247310d0]" started-at="2021-11-25T17:43:54Z" name="patientAlertsConfiguration" finished-at="2021-11-25T17:43:56Z" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientAlertsConfiguration -->
+      </class> <!-- somaApiTesting.GetPatientAlertsConfiguration -->
+      <class name="somaApiTesting.GetSomaDjCategories">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaDjCategories@59402b8f]" started-at="2021-11-25T17:43:48Z" name="accessToken" finished-at="2021-11-25T17:43:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="somaDjCategories()[pri:0, instance:somaApiTesting.GetSomaDjCategories@59402b8f]" started-at="2021-11-25T17:43:48Z" name="somaDjCategories" finished-at="2021-11-25T17:43:50Z" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- somaDjCategories -->
+      </class> <!-- somaApiTesting.GetSomaDjCategories -->
+      <class name="somaApiTesting.GetListOfDjQuestions">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetListOfDjQuestions@496bc455]" started-at="2021-11-25T17:43:46Z" name="accessToken" finished-at="2021-11-25T17:43:46Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="listOfDjQuestions()[pri:0, instance:somaApiTesting.GetListOfDjQuestions@496bc455]" started-at="2021-11-25T17:43:46Z" name="listOfDjQuestions" finished-at="2021-11-25T17:43:48Z" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfDjQuestions -->
+      </class> <!-- somaApiTesting.GetListOfDjQuestions -->
+      <class name="somaApiTesting.GetPatientReadings">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientReadings@4d1c005e]" started-at="2021-11-25T17:43:38Z" name="accessToken" finished-at="2021-11-25T17:43:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientReadings()[pri:0, instance:somaApiTesting.GetPatientReadings@4d1c005e]" started-at="2021-11-25T17:43:38Z" name="patientReadings" finished-at="2021-11-25T17:43:40Z" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientReadings -->
+      </class> <!-- somaApiTesting.GetPatientReadings -->
+      <class name="somaApiTesting.GetPatientTeams">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientTeams@3e08ff24]" started-at="2021-11-25T17:43:36Z" name="accessToken" finished-at="2021-11-25T17:43:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientTeams()[pri:0, instance:somaApiTesting.GetPatientTeams@3e08ff24]" started-at="2021-11-25T17:43:36Z" name="patientTeams" finished-at="2021-11-25T17:43:38Z" duration-ms="2247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientTeams -->
+      </class> <!-- somaApiTesting.GetPatientTeams -->
+      <class name="somaApiTesting.BaseClass">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.BaseClass@2b40ff9c]" started-at="2021-11-25T17:43:36Z" name="accessToken" finished-at="2021-11-25T17:43:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+      </class> <!-- somaApiTesting.BaseClass -->
+      <class name="somaApiTesting.GetPatientCount">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientCount@7d9d0818]" started-at="2021-11-25T17:43:31Z" name="accessToken" finished-at="2021-11-25T17:43:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientCount()[pri:0, instance:somaApiTesting.GetPatientCount@7d9d0818]" started-at="2021-11-25T17:43:31Z" name="patientCount" finished-at="2021-11-25T17:43:33Z" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientCount -->
+      </class> <!-- somaApiTesting.GetPatientCount -->
+      <class name="somaApiTesting.GetpatientFoodLogHistory">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetpatientFoodLogHistory@6be968ce]" started-at="2021-11-25T17:43:51Z" name="accessToken" finished-at="2021-11-25T17:43:51Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientFoodLogHistory()[pri:0, instance:somaApiTesting.GetpatientFoodLogHistory@6be968ce]" started-at="2021-11-25T17:43:51Z" name="patientFoodLogHistory" finished-at="2021-11-25T17:43:53Z" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientFoodLogHistory -->
+      </class> <!-- somaApiTesting.GetpatientFoodLogHistory -->
+      <class name="somaApiTesting.GetReadingTypes">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetReadingTypes@24569dba]" started-at="2021-11-25T17:43:42Z" name="accessToken" finished-at="2021-11-25T17:43:42Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="GetReadingTypesApi()[pri:0, instance:somaApiTesting.GetReadingTypes@24569dba]" started-at="2021-11-25T17:43:42Z" name="GetReadingTypesApi" finished-at="2021-11-25T17:43:44Z" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReadingTypesApi -->
+      </class> <!-- somaApiTesting.GetReadingTypes -->
+      <class name="somaApiTesting.GetPatientFoodLogDetails">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetPatientFoodLogDetails@5ddeb7cb]" started-at="2021-11-25T17:43:44Z" name="accessToken" finished-at="2021-11-25T17:43:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="patientFoodLogDetails()[pri:0, instance:somaApiTesting.GetPatientFoodLogDetails@5ddeb7cb]" started-at="2021-11-25T17:43:44Z" name="patientFoodLogDetails" finished-at="2021-11-25T17:43:45Z" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientFoodLogDetails -->
+      </class> <!-- somaApiTesting.GetPatientFoodLogDetails -->
+      <class name="somaApiTesting.GetDjQuestionTypes">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetDjQuestionTypes@7e057f43]" started-at="2021-11-25T17:43:19Z" name="accessToken" finished-at="2021-11-25T17:43:19Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjQuestionTypes()[pri:0, instance:somaApiTesting.GetDjQuestionTypes@7e057f43]" started-at="2021-11-25T17:43:19Z" name="DjQuestionTypes" finished-at="2021-11-25T17:43:21Z" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjQuestionTypes -->
+      </class> <!-- somaApiTesting.GetDjQuestionTypes -->
+      <class name="somaApiTesting.GetSomaPrograms">
+        <test-method signature="accessToken()[pri:0, instance:somaApiTesting.GetSomaPrograms@6c284af]" started-at="2021-11-25T17:43:21Z" name="accessToken" finished-at="2021-11-25T17:43:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method signature="DjNotificationSettings()[pri:0, instance:somaApiTesting.GetSomaPrograms@6c284af]" started-at="2021-11-25T17:43:21Z" name="DjNotificationSettings" finished-at="2021-11-25T17:43:23Z" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DjNotificationSettings -->
+      </class> <!-- somaApiTesting.GetSomaPrograms -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
